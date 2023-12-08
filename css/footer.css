@@ -1,0 +1,29 @@
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+}
+
+footer .logo {
+  width: 296px;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer nav{
+  margin-top: 20px;
+}
+
+footer nav ul li {
+  padding: 0 20px;
+}
+
+footer nav ul li a {
+  font-size: 15px;
+}
+
+footer p{
+  margin-top: 10px;
+}

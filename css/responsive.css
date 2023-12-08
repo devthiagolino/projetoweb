@@ -1,0 +1,64 @@
+/* ATÉ O TAMANHO DA TELA CHEGAR EM 600px, */
+/* VAI FAZER ESSAS FORMATAÇÕES */
+@media (max-width: 600px) {
+  #conteudo-destaque #flex-destaque {
+    flex-direction: column;
+    gap: 50px;
+    padding: 10px;
+  }
+
+  #conteudo-header nav ul li {
+    padding: 0 10px;
+  }
+
+  #conteudo-header nav ul li a {
+    font-size: 12px;
+  }
+
+  #conteudo-personagens ul {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .titulo-sessao h1 {
+    margin-right: 20px;
+  }
+
+  .info {
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 30px 0;
+  }
+
+  .info .texto p{
+    display: none;
+  }
+
+  .info .texto h3{
+    margin: 0;
+  }
+
+  .conteudo-inverte {
+    flex-direction: column-reverse;
+  }
+
+  #destaque{
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+
+  #destaque h3 {
+    background-color: #ffff00;
+    color: #000;
+    font-size: 21px;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+/* FIM 800px */

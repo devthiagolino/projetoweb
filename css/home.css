@@ -1,0 +1,94 @@
+#conteudo-destaque {
+  margin-top: 50px;
+}
+
+#conteudo-destaque #flex-destaque{
+    display: flex;
+    gap: 50px;
+}
+
+#conteudo-destaque #flex-destaque div{
+    flex: 0 0 50%;
+}
+
+#conteudo-destaque #img-destaque img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#conteudo-destaque #txt-destaque h1 {
+    color: #ffff00;
+    border-bottom: 1px dashed #ffff00;
+    padding-bottom: 10px;
+    font-size: 32px;
+}
+
+#conteudo-destaque #txt-destaque p {
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: 15px;
+}
+
+#conteudo-destaque #txt-destaque ul{
+    margin-top: 20px;
+}
+
+#conteudo-destaque #txt-destaque ul li{
+    margin-bottom: 10px;
+}
+
+#conteudo-destaque #txt-destaque ul li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+}
+
+#conteudo-destaque #txt-destaque ul li a img {
+    margin-right: 10px;
+}
+
+#conteudo-personagens {
+    width: 100%;
+    margin-top: 100px;
+}
+
+#conteudo-personagens h1{
+    color: #ffff00;
+    border-bottom: 1px dashed #ffff00;
+    padding-bottom: 10px;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#conteudo-personagens ul {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+#conteudo-personagens ul li {
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#conteudo-personagens ul li img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#conteudo-personagens ul li h3{
+    padding: 25px 0 25px 25px;
+    background-color: #FF0000;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    font-size: 32px;
+    display: none;
+}
+
+#conteudo-personagens ul li:hover h3{
+    display: block;
+}

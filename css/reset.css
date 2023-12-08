@@ -1,0 +1,41 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  font-size: 15px;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+  color: #ffff00;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto; /* alinhar ao centro*/
+  padding: 0 10px;
+}
+
+.titulo-sessao{
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}

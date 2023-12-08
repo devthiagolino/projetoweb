@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Página Principal</title>
+
+    <!-- adicionando as fontes do google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- fim das fonts -->
+
+    <!-- estilização das páginas -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fim da estilização das páginas -->
+
+</head>
+
+<body>
+    <!-- HEADER width: 100% -->
+    <header>
+        <!-- CONTAINER: SERVE PARA DEFINIRMOS 
+            O TAMANHO DO NOSSOCONTEÚDO : width: 1140px -->
+        <div class="container" id="conteudo-header">
+
+            <!-- LOGO -->
+            <a href="index.html">
+                <img src="img/logo.png" class="logo" alt="Projeto Web - 001">
+            </a>
+            <!-- FIM DO LOGO -->
+
+            <!-- ELEMENTO SEMÂNTICO -->
+            <!-- VAI AJUDAR INDEXAR MINHA PÁGINA -->
+            <!-- NOS BUSCADORES - GOOGLE -->
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="link-ativo">INÍCIO</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="personagens.html">PERSONAGENS</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </nav>
+            <!-- FIM DA NAV -->
+        </div>
+        <!-- FIM DO CONTAINER -->
+    </header>
+    <!-- FIM DO HEADER -->
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+        <!-- DESTAQUE -->
+        <section id="conteudo-destaque">
+            <div class="container" id="flex-destaque">
+                <div id="img-destaque">
+                    <img src="img/post-img-1.jpg" alt="Destaque">
+                </div>
+                <div id="txt-destaque">
+                    <h1>SOBRE O ANIME</h1>
+                    <p>Criada por Akira Toryiama, a franquia conta a história de Son Goku, guerreiro que descobre ser
+                        parte de um legado de poderosos conquistadores alienígenas - e passa a defender seu planeta
+                        adotivo, a Terra, de outros seres igualmente superfortes e capazes de feitos descomunais.</p>
+                    <ul>
+                        <li>
+                            <a href="sobre.html">
+                                <img src="img/esfera_2.png" alt="">
+                                Saiba mais
+                            </a>
+                        </li>
+                        <li>
+                            <a href="personagens.html">
+                                <img src="img/esfera_2.png" alt="">
+                                Personagens
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- FIM DESTAQUE -->
+
+        <!-- PERSONAGENS -->
+        <section id="conteudo-personagens">
+            <div class="container">
+                <div class="titulo-sessao">
+                    <h1>PERSONAGENS PRINCIPAIS</h1>
+                </div>
+                <ul>
+                    <li>
+                        <img src="img/personagem-1.jpg" alt="">
+                        <h3>Kuririn</h3>
+                    </li>
+                    <li>
+                        <img src="img/personagem-2.jpg" alt="">
+                        <h3>Kuririn</h3>
+                    </li>
+                    <li>
+                        <img src="img/personagem-3.jpg" alt="">
+                        <h3>Kuririn</h3>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <img src="img/personagem-1.jpg" alt="">
+                        <h3>Kuririn</h3>
+                    </li>
+                    <li>
+                        <img src="img/personagem-2.jpg" alt="">
+                        <h3>Kuririn</h3>
+                    </li>
+                    <li>
+                        <img src="img/personagem-3.jpg" alt="">
+                        <h3>Kuririn</h3>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- FIM DOS PERSONAGENS -->
+    </main>
+    <!-- FIM DO MAIN-->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Projeto" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="personagens.html">Personagens</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <p>Todos os direitos reservados - site.com.br</p>
+        </div>
+    </footer>
+    <!-- FIM FOOTER -->
+</body>
+
+</html>

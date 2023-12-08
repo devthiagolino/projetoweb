@@ -1,0 +1,36 @@
+header{
+    width: 100%;
+    padding: 50px 0;
+}
+
+.logo{
+    width: 296px;
+}
+
+header nav ul li {
+    display: inline
+}
+
+#conteudo-header {
+    text-align: center;
+}
+
+#conteudo-header nav{
+    margin-top: 20px;
+}
+
+#conteudo-header nav ul li {
+    padding: 0 20px;
+}
+
+#conteudo-header nav ul li a {
+    font-size: 15px;
+}
+
+#conteudo-header nav ul li a:hover{
+    color: #ffff00;
+}
+
+#conteudo-header nav ul li a.link-ativo{
+    color: #ffff00;
+}

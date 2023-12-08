@@ -1,0 +1,132 @@
+/* PAGINA SOBRE */
+#destaque {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  max-height: 450px;
+  margin: 50px 0;
+}
+
+#destaque img {
+  width: 100%;
+}
+
+#destaque h3 {
+  background-color: #ffff00;
+  color: #000;
+  font-size: 28px;
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  padding: 50px 0;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+
+.info div {
+  flex: 0 1 50%;
+}
+
+.info img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.info .texto h3 {
+  color: #ffff00;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.info .texto p{
+    font-size: 19px;
+    line-height: 31px;
+}
+/* FIM PAGINA SOBRE */
+
+
+/* PAGINA PERSONAGENS */
+.lista-personagens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.lista-personagens div {
+    flex: 0 0 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.lista-personagens div img{
+    max-width: 100%;
+}
+
+.lista-personagens div h3{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #FF0000;
+    padding: 15px;
+}
+/* FIM PAGINA PERSONAGENS */
+
+/* PAGINA CONTATO */
+.contato h1{
+    text-align: center;
+    font-size: 32px;
+    color: #ffff00;
+    margin-bottom: 50px;
+}
+
+.contato form {
+    max-width: 580px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contato form .form-grupo{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.contato form .form-grupo label{
+    display: block;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.contato form .form-grupo input,
+.contato form .form-grupo textarea{
+    width: 100%;
+    background-color: #100F0F;
+    border: 1px solid #ffff00;
+    color: #fff;
+    font-size: 19px;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.contato form .form-grupo input{
+    height: 50px;
+}
+
+.contato form .form-grupo button{
+    background-color: #ffff00;
+    border: 1px solid #000;
+    padding: 15px 50px;
+}
+
+.contato .btn-right{
+    text-align: right;
+}
+/* FIM PAGINA CONTATO */
